@@ -20,10 +20,11 @@ public class inicioSesion extends JFrame{
         aceptBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e){
+                String Consulta;
                 Connector con = new Connector();
-                Connection conectar = (Connection) con.getConexion();
-                String res = con.toString();
-                System.out.println(res);
+                //Connection conectar = (Connection) con.getConexion();
+                Consulta = con.PruebaMySQL();
+                System.out.println(Consulta);
             }
         });
         cancelBtn.addActionListener(new ActionListener() {
