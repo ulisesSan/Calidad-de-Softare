@@ -1,4 +1,9 @@
+import com.sun.jdi.connect.spi.Connection;
+
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.DriverManager;
 
 public class inicioSesion extends JFrame{
     private JPanel inicioSesion;
@@ -12,6 +17,21 @@ public class inicioSesion extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setContentPane(inicioSesion);
         this.pack();
+        aceptBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e){
+                Connector con = new Connector();
+                Connection conectar = (Connection) con.getConexion();
+                String res = con.toString();
+                System.out.println(res);
+            }
+        });
+        cancelBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
     }
 
     public static void main(String[] args){
