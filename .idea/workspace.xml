@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d912d23-c4f0-4210-a6a6-03f8dad33c99" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Calidad-de-Softare/Connector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calidad-de-Softare/Connector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Calidad-de-Softare/inicioSesion$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calidad-de-Softare/inicioSesion$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Calidad-de-Softare/inicioSesion$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calidad-de-Softare/inicioSesion$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Calidad-de-Softare/inicioSesion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Calidad-de-Softare/inicioSesion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Connector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inicioSesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inicioSesion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635214325857</updated>
       <workItem from="1635214332495" duration="4717000" />
-      <workItem from="1635251227533" duration="12976000" />
+      <workItem from="1635251227533" duration="14287000" />
     </task>
     <servers />
   </component>
